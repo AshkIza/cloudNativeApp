@@ -18,30 +18,30 @@
   
 ------------------------------------------------------------------------------------------------------------------------------------
 
+**Code Repositories:**
+ 
+   Angular ->
+   https://github.com/AshkIza/Angular
+   
+   Springboot (core-api && mongodb-api)-> 
+   https://github.com/AshkIza/Spring
+    
+   DataInitialzr (start-up scripts) ->
+   
+ ------------------------------------------------------------------------------------------------------------------------------------
+
 **How to deploy this application?**
 There are two options:
 
 1-deploy it locally on a docker engine environment (using **docker-compose**)
 
-  YAML file for docker-compose deployments : 'docker-compose-courseApp.yml'  
+    YAML file for docker-compose deployments : 'docker-compose-courseApp.yml'  
 
 2- deploy it on a **kuberbetes cluster**
-  NOTE: for development enviroment, you can deploy it locally on minikube - which is a one-node kubernetes cluster)
-  
-  YAML file for kubernets deployments :  'k8s-courseApp.yml'
-  
- ------------------------------------------------------------------------------------------------------------------------------------
 
-**Here are the links to each module's Code Repository:**
- 
-   Angular ->
-   https://github.com/AshkIza/Angular
+    NOTE: for development enviroment, you can deploy it locally on minikube - which is a one-node kubernetes cluster)
+    YAML file for kubernets deployments :  'k8s-courseApp.yml'
    
-   Springboot -> 
-   https://github.com/AshkIza/Spring
-    
-   DataInitialzr ->
- 
 ------------------------------------------------------------------------------------------------------------------------------------
 
 **How to Access the docker images?**
