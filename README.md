@@ -1,5 +1,6 @@
 # Cloud Native Application 
-**Technology Stack used :SpringBoot, Angular, MySQL/MongoDB, Docker/Docker-compose, Kubernetes/minikube**
+**This application is implemented using SpringBoot, Angular, MySQL/MongoDB, Docker/Docker-compose, and Kubernetes/minikube**
+
 
 **This application is composed of multiple microservices as follows:**
 
@@ -14,7 +15,8 @@
 4- **data-initialzr** : docker image of a linux-base image with cURL installed and some starter data. 
         This will be run once to populate Databases with configuration/starter data (using cURL commands to invode REST endpoints)
   
-   
+------------------------------------------------------------------------------------------------------------------------------------
+
 **How to deploy this application?**
 There are two options.
 
@@ -27,8 +29,9 @@ There are two options.
   
   YAML file for kubernets deployments :  'k8s-courseApp.yml'
   
-  
- **Here are the links to each module's code repository:**
+ ------------------------------------------------------------------------------------------------------------------------------------
+
+**Here are the links to each module's code repository:**
  
    Angular ->
    https://github.com/AshkIza/Angular
@@ -38,7 +41,8 @@ There are two options.
     
    DataInitialzr ->
  
-  
+------------------------------------------------------------------------------------------------------------------------------------
+
 **How to Access the docker images?**
 Following links helps you to download the images from **DockerHub**
     
