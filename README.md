@@ -1,4 +1,5 @@
-# Cloud Native Application (SpringBoot, Angular, MySQL/MongoDB, Docker/Docker-compose, Kubernetes/minikube)
+# Cloud Native Application 
+(SpringBoot, Angular, MySQL/MongoDB, Docker/Docker-compose, Kubernetes/minikube)
 
 This application is composed of multiple microservices as follows:
 1- ng-course-ui :  docker image of an Angular application (hosted on an NGinx server). This will be the Web component.
