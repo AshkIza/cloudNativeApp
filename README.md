@@ -1,5 +1,5 @@
 # Cloud Native Application 
-**Technology Stack used :SpringBoot, Angular, MySQL/MongoDB, Docker/Docker-compose, Kubernetes/minikube
+**Technology Stack used :SpringBoot, Angular, MySQL/MongoDB, Docker/Docker-compose, Kubernetes/minikube**
 
 **This application is composed of multiple microservices as follows:**
 
@@ -16,7 +16,8 @@
    
    
 **How to Access the docker images?**
-Following links helps you to download the images from DockerHub
+Following links helps you to download the images from **DockerHub**
+    
     ng-course-ui -> 
     spring-core-api- ->
     spring-mongodb-api ->
@@ -37,11 +38,11 @@ There are two options.
   
  Here are the links to each module's code repository:
     
-    **Angular -> https://github.com/AshkIza/Angular**
+    Angular -> https://github.com/AshkIza/Angular
     
-    **Springboot -> https://github.com/AshkIza/Spring**
+    Springboot -> https://github.com/AshkIza/Spring
     
-    **DataInitialzr ->**
+    DataInitialzr ->
  
   
    
