@@ -36,9 +36,12 @@ There are two options.
   
   
  Here are the links to each module's code repository:
-    Angular -> 
-    Springboot ->
-    DataInitialzr ->
+    
+    **Angular -> https://github.com/AshkIza/Angular**
+    
+    **Springboot -> https://github.com/AshkIza/Spring**
+    
+    **DataInitialzr ->**
  
   
    
