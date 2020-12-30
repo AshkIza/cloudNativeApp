@@ -37,7 +37,7 @@ There are two options:
 
     YAML file for docker-compose deployments : 'docker-compose-courseApp.yml'  
 
-2- deploy it on a **kuberbetes cluster (Managed k8s GKE/EKS or self-managed k8s Minikube)**
+2- deploy it on a **kuberbetes cluster : Managed (GKE/EKS) or self-managed (Minikube)**
 
     NOTE: for development enviroment, you can deploy it locally on minikube - which is a one-node kubernetes cluster)
     YAML file for kubernets deployments :  'k8s-courseApp.yml'
