@@ -1,7 +1,8 @@
 # Cloud Native Application 
 **Technology Stack used :SpringBoot, Angular, MySQL/MongoDB, Docker/Docker-compose, Kubernetes/minikube
 
-**This application is composed of multiple microservices as follows:
+**This application is composed of multiple microservices as follows:**
+
 1- **ng-course-ui** :  docker image of an Angular application (hosted on an NGinx server). This will be the Web component.
 
 2- **spring-core-api** : docker image of a Spring Boot application (MVC, Spring data-jpa) with MySQL as the database.
