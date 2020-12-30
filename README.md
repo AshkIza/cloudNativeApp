@@ -2,7 +2,7 @@
 **This application is implemented using SpringBoot, Angular, MySQL/MongoDB, Docker/Docker-compose, and Kubernetes/minikube**
 
 
-**This application is composed of multiple microservices as follows:**
+**This application is composed of following microservices:**
 
 1- **ng-course-ui** :  docker image of an Angular application (hosted on an NGinx server). This will be the Web component.
 
@@ -26,11 +26,11 @@
    Springboot (core-api && mongodb-api)-> 
    https://github.com/AshkIza/Spring
     
-   DataInitialzr (start-up scripts) ->
+   DataInitialzr (start-up scripts/cURL) ->
    
  ------------------------------------------------------------------------------------------------------------------------------------
 
-**How to deploy this application?**
+**How to deploy this application ?**
 There are two options:
 
 1-deploy it locally on a docker engine environment (using **docker-compose**)
@@ -44,7 +44,7 @@ There are two options:
    
 ------------------------------------------------------------------------------------------------------------------------------------
 
-**How to Access the docker images?**
+**How to Access the docker images ?**
 Following links helps you to download the images from **DockerHub**
     
     ng-course-ui -> 
