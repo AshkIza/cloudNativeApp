@@ -24,7 +24,7 @@
    https://github.com/AshkIza/Angular
    
    Springboot (core-api && mongodb-api)-> 
-   https://github.com/AshkIza/Spring
+     spring-core-api : https://github.com/AshkIza/spring-core-api
     
    DataInitialzr (start-up scripts/cURL) ->
    
