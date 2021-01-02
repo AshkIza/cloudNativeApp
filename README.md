@@ -20,11 +20,14 @@
 
 **Code Repositories:**
  
-   Angular ->
+   ng-course-ui (Angular) ->
    https://github.com/AshkIza/Angular
    
-   Springboot (core-api && mongodb-api)-> 
-     spring-core-api : https://github.com/AshkIza/spring-core-api
+   
+   spring-core-api (SpringBoot):
+   https://github.com/AshkIza/spring-core-api
+   
+   spring-mongodb-api (SpringBoot): 
     
    DataInitialzr (start-up scripts/cURL) ->
    
