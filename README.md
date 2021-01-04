@@ -17,17 +17,11 @@ We are building a Learning Management System (LMS) based on micro-services Archi
 
 
 -----------
+**System Architecture**
 
 Inline-style: 
-![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/books_6.jpg "Logo Title Text 1")
+![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/learning-management-system-diagram.png)
 
-
-
-
-
-
-
-  
 ------------------------------------------------------------------------------------------------------------------------------------
 
 **Build**
