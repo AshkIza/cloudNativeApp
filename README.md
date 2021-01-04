@@ -57,3 +57,7 @@ Following links helps you to download the images from **DockerHub**
     MySQL ->
     MongoDB -> 
    
+ -----------------------------------------------------------------------------------------------------------------------------------
+ Following links help you to fill in the knowledge gap:
+ 
+ Spring Boot, Mysql, React docker compose : https://www.callicoder.com/spring-boot-mysql-react-docker-compose-example/
