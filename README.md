@@ -1,7 +1,7 @@
 # Cloud Native Application 
 **This application is implemented using SpringBoot, Angular, MySQL/MongoDB, Docker/Docker-compose, and Kubernetes/minikube**.
 
-We are building a Learning Management System (LMS) based on micro-services Architecture. Each major component of the system is designed, built and deployed sepearately within its own Container / Pod. This helps to scale the application at ease and also make use of differerent technologies for building the app.
+We are building a  [Learning Management System (LMS)](https://en.wikipedia.org/wiki/Learning_management_system) based on micro-services Architecture. Each major component of the system is designed, built and deployed sepearately within its own Container / Pod. This helps to scale the application at ease and also make use of differerent technologies for building the app.
 
 **This application is composed of the following modules:**
 
