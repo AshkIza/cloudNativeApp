@@ -12,9 +12,7 @@
 3- **spring-mongodb-api** : docker image of a Spring Boot application (MVC, Spring data-mongodb) with MongoDB as the database.
         This will be a RESTful endpoint to access NoSQL data (MongoDB collections)
     
-4- **data-initialzr** : docker image of a linux-based image with cURL installed and some starter data. 
-        This will be run once at the deployment-time to initilaize the databases with proper configuration/starter data 
-        (using cURL scripts to invoke REST endpoints)
+4- **data-initialzr** : bash script (data-initialzr.sh) which loads some starter data (data-initialzr.sql) into the MySQL database.
   
 ------------------------------------------------------------------------------------------------------------------------------------
 
