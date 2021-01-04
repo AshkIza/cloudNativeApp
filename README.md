@@ -20,7 +20,7 @@ We are building a  [Learning Management System (LMS)](https://en.wikipedia.org/w
 
 **System Architecture :**
 
-![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/system-architecture.png)
+![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/system-design-architecture.png)
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
