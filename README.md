@@ -14,6 +14,19 @@ We are building a Learning Management System (LMS) based on micro-services Archi
         This will be a RESTful endpoint to access NoSQL data (MongoDB collections)
     
 4- **data-initialzr** : bash script (data-initialzr.sh) which loads some starter data (data-initialzr.sql) into the MySQL database.
+
+
+-----------
+
+Inline-style: 
+![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/books_6.jpg "Logo Title Text 1")
+
+
+
+
+
+
+
   
 ------------------------------------------------------------------------------------------------------------------------------------
 
