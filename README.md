@@ -1,7 +1,7 @@
 # Cloud Native Application 
-**This application is implemented using SpringBoot, Angular, MySQL/MongoDB, Docker/Docker-compose, and Kubernetes/minikube**
+**This application is implemented using SpringBoot, Angular, MySQL/MongoDB, Docker/Docker-compose, and Kubernetes/minikube**.
 
-We are building a Learning Management System (LMS) based on micro-services Architecute. Each major component of the system is designed, built and deployed sepearately within its own Container / Pod. This helps to scale the application at ease and also make use of differerent technologies for building the app.
+We are building a Learning Management System (LMS) based on micro-services Architecture. Each major component of the system is designed, built and deployed sepearately within its own Container / Pod. This helps to scale the application at ease and also make use of differerent technologies for building the app.
 
 **This application is composed of the following modules:**
 
@@ -31,7 +31,7 @@ We are building a Learning Management System (LMS) based on micro-services Archi
    spring-mongodb-api (SpringBoot): 
    
    
-   Docker image for each module has been built (using Dockerfiles) and pushed to the DockerHub (docker push):
+   Docker image for each module has been built (docker build / Dockerfile) and pushed to the Docker Hub :
             
     ng-course-ui -> 
     spring-core-api- ->
@@ -41,8 +41,8 @@ We are building a Learning Management System (LMS) based on micro-services Archi
 
 **Deploy**
 
-During the deployments, docker images will be pulled (docker pull), and be deployed using YAML deployemnt files. 
-Angular (web-tier), Spring (service-tier), and MySQL (data-tier) images will be deployed in separate conainers.
+During the deployments, docker images will be pulled from the Docker Hub, and be deployed using YAML deployemnt files. 
+Angular (web-tier), Spring (service-tier), and MySQL (data-tier) images will be deployed in separate containers/pods.
 
 You can deploy the application either,
 
@@ -51,17 +51,22 @@ You can deploy the application either,
     YAML file 'docker-compose.yml' includes all deployment instructions for the docker-compose.
         docker-compose up   
         docker-compose down (to undeploy and remove the containers)
-   The application can be accessed from 'http://localhost:9090/'
+    The application can be accessed from 'http://localhost:9090/'
+
 Or,
+
 
 2- On a **kuberbetes Cluster**
 
-    You can use either Managed (Google / Amazon -> GKE/EKS) or self-managed Kubernetes cluster.
-    (For development enviroment, you can deploy it locally on minikube - which is a single-node kubernetes cluster)
-    YAML file for kubernets deployments :  'k8s-courseApp.yml'
+    You can use either Managed (Google GKE / Amazon EKS) or self-managed Kubernetes cluster.
+    For development/test enviroments, you can deploy it locally on minikube - which is a single-node kubernetes cluster.
+   
+    YAML file for kubernets deployments is  'k8s-courseApp.yml'
    
    
  -----------------------------------------------------------------------------------------------------------------------------------
  Useful links:
+ 
+ Learning Management System : https://en.wikipedia.org/wiki/Learning_management_system
  
  Spring Boot, Mysql, React docker compose : https://www.callicoder.com/spring-boot-mysql-react-docker-compose-example/
