@@ -16,10 +16,10 @@ We are building a Learning Management System (LMS) based on micro-services Archi
 4- **data-initialzr** : bash script (data-initialzr.sh) which loads some starter data (data-initialzr.sql) into the MySQL database.
 
 
------------
-**System Architecture**
+-----------------------------------------------------------------------------------------------------------------------------------
 
-Inline-style: 
+**System Architecture :**
+
 ![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/learning-management-system-diagram.png)
 
 ------------------------------------------------------------------------------------------------------------------------------------
