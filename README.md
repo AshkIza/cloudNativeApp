@@ -2,7 +2,7 @@
 **This application is implemented using SpringBoot, Angular, MySQL/MongoDB, Docker/Docker-compose, and Kubernetes/minikube**
 
 
-**This application is composed of following microservices:**
+**This application is composed of the following modules:**
 
 1- **ng-course-ui** :  docker image of an Angular application (hosted on an NGinx server). This will be the Web component.
 
@@ -16,8 +16,10 @@
   
 ------------------------------------------------------------------------------------------------------------------------------------
 
-**Code Repositories:**
- 
+**Build**
+
+   Code Repositories:
+   
    ng-course-ui (Angular) ->
    https://github.com/AshkIza/Angular
    
@@ -26,36 +28,35 @@
    https://github.com/AshkIza/spring-core-api
    
    spring-mongodb-api (SpringBoot): 
-    
-   DataInitialzr (start-up scripts/cURL) ->
+   
+   
+   Docker image for each module has been built (using Dockerfiles) and pushed to the DockerHub (docker push):
+            
+    ng-course-ui -> 
+    spring-core-api- ->
+    spring-mongodb-api ->
    
  ------------------------------------------------------------------------------------------------------------------------------------
 
-**How to deploy this application ?**
-There are two options:
+**Deploy**
 
-1-deploy it locally on a docker engine environment (using **docker-compose**)
+During the deployments, docker images will be pulled (docker pull), and be deployed using YAML deployemnt files.
 
-    YAML file for docker-compose deployments : 'docker-compose-courseApp.yml'  
+You can deploy the application either,
 
-2- deploy it on a **kuberbetes cluster : Managed (GKE/EKS) or self-managed (Minikube)**
+1- On a docker Engine (in your local environment -  **docker-compose**)
+
+    YAML file (docker-compose.yml) to deploy angular/spring/MySQL containers within the docker Engine : 
+        docker-compose up
+        docker-compose down (to undeploy and remove the containers)
+Or,
+2- On a **kuberbetes cluster - Managed (GKE/EKS) or Self-managed (Minikube)**
 
     NOTE: for development enviroment, you can deploy it locally on minikube - which is a one-node kubernetes cluster)
     YAML file for kubernets deployments :  'k8s-courseApp.yml'
    
-------------------------------------------------------------------------------------------------------------------------------------
-
-**How to Access the docker images ?**
-Following links helps you to download the images from **DockerHub**
-    
-    ng-course-ui -> 
-    spring-core-api- ->
-    spring-mongodb-api ->
-    data-initialzr ->
-    MySQL ->
-    MongoDB -> 
    
  -----------------------------------------------------------------------------------------------------------------------------------
- Following links help you to fill in the knowledge gap:
+ Useful links:
  
  Spring Boot, Mysql, React docker compose : https://www.callicoder.com/spring-boot-mysql-react-docker-compose-example/
