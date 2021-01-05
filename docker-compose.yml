@@ -19,7 +19,7 @@ services:
   docker-spring:
     restart: on-failure
     container_name: docker-spring
-    image: spring-core-api
+    image: ashkan2020/cloudnative:spring-core-api
     expose:
       - "8089"
     ports:
@@ -35,7 +35,7 @@ services:
   docker-angular:
     restart: always
     container_name: docker-angular
-    image: ng-course-ui
+    image: ashkan2020/cloudnative:ng-course-ui
     ports:
      - "9090:80"
     depends_on:
