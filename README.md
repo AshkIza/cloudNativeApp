@@ -13,9 +13,6 @@ We are building a  [Learning Management System (LMS)](https://en.wikipedia.org/w
 3- **spring-mongodb-api** : docker image of a Spring Boot application (MVC, Spring data-mongodb) with MongoDB as the database.
         This will be a RESTful endpoint to access NoSQL data (MongoDB collections)
     
-4- **data-initialzr** : bash script (data-initialzr.sh) which loads some starter data (data-initialzr.sql) into the MySQL database.
-
-
 -----------------------------------------------------------------------------------------------------------------------------------
 
 **System Architecture :**
@@ -58,7 +55,7 @@ You can deploy the application either,
     YAML file 'docker-compose.yml' includes all deployment instructions for the docker-compose.
         docker-compose up   
         docker-compose down (to undeploy and remove the containers)
-        run './data-initialzr.sh' to load some starter data (data-initialzr.sql) into the MySQL database.
+    Run './data-initialzr.sh' to load some starter data (data-initialzr.sql) into MySQL database.
    The application can now be accessed from [http://localhost:9090](http://localhost:9090)
 
 Or,
@@ -72,6 +69,19 @@ Or,
     YAML file for kubernets deployments is  'k8s-courseApp.yml'
    
    
+------------------------------------------------------------------------------------------------------------------------------------
+
+**How does this application look like? (Web-tier)**
+
+![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/lms-home-page.png)
+
+![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/lms-course-list.png)
+
+![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/lms-book-inventory.png)
+
+
+
+
  -----------------------------------------------------------------------------------------------------------------------------------
  Useful links:
  
