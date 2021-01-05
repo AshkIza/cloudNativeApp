@@ -4,6 +4,12 @@
 We are building a  [Learning Management System (LMS)](https://en.wikipedia.org/wiki/Learning_management_system) based on **micro-services Architecture**. Each major component of the system is designed, built and deployed sepearately within its own Container / Pod. This helps us to scale the application at ease and make use of differerent technologies for building our app.<br/> 
 
 We will be building 3 docker images (ng-course-ui, spring-core-api, spring-mongodb-api) for our system. We will then write YAML deployment files to instruct docker-compose/kubernetes to deply these images.
+    
+-----------------------------------------------------------------------------------------------------------------------------------
+
+## System Architecture :
+
+![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/system-design-architecture.png)
 
 
 **This application is composed of the following modules:**
@@ -21,13 +27,6 @@ We will be building 3 docker images (ng-course-ui, spring-core-api, spring-mongo
 5- **Persistent Volume (PV)** : Since Containers are designed to be _epehmeral_, we mount a persistent volume to the MySQL/MongoDB docker containers.<br/>
  We use **dockervolume** folder in the host machine as the data volume (you can create it by running 'mkdir -p dockervolume').<br/>
  In case of _Hosted_ solutions, you can use any object storage solution provided by your cloud provider (examples are _Google Cloud Storage_ and _Amazon S3 Buckets_).
-    
------------------------------------------------------------------------------------------------------------------------------------
-
-## System Architecture :
-
-![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/system-design-architecture.png)
-
 ------------------------------------------------------------------------------------------------------------------------------------
 
 ## Build : 
