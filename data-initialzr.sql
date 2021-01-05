@@ -3,11 +3,11 @@ delete from book;
 delete from course;
 delete from topic;
 
-insert into topic (id, description, name, details) values (1, 'containarization including docker and kubernetes','Containers', null);
-insert into topic (id, description, name, details) values (2, 'Java Core libraries - collections, streams, concurrent','Java Core', null);
-insert into topic (id, description, name, details) values (3, 'Spring framework - Core/MVC/Data/Security & springBoot','Spring', null);
-insert into topic (id, description, name, details) values (4, 'Front end technologies - javascript, typescript, AngularJs, RxJs, HTML 5.0, CSS','Frontend', null);
-insert into topic (id, description, name, details) values (5, 'Distributed systems and microservices','System design', null);
+insert into topic (id, details, name) values (1, 'containarization including docker and kubernetes','Containers');
+insert into topic (id, name, details) values (2, 'Java Core libraries - collections, streams, concurrent','Java Core');
+insert into topic (id, name, details) values (3, 'Spring framework - Core/MVC/Data/Security & springBoot','Spring');
+insert into topic (id, name, details) values (4, 'Front end technologies - javascript, typescript, AngularJs, RxJs, HTML 5.0, CSS','Frontend');
+insert into topic (id, name, details) values (5, 'Distributed systems and microservices','System design');
 
 insert into course (id, description, title, recommended_book_id, topic_id) values (1, 'k8s for Beginners [FULL COURSE in 4 Hours]', 'Kubernetes Tutorial', null, 1);
 insert into course (id, description, title, recommended_book_id, topic_id) values (2, 'Java Collections Streams Excutorservice JDK8','Java Core', null, 2);
