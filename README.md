@@ -29,18 +29,21 @@ We are building a  [Learning Management System (LMS)](https://en.wikipedia.org/w
 
    Code Repositories:
    
-   https://github.com/AshkIza/Angular          -> (ng-course-ui (Angular))
+   https://github.com/AshkIza/Angular          
  
-   https://github.com/AshkIza/spring-core-api  -> spring-core-api (SpringBoot)
+   https://github.com/AshkIza/spring-core-api  
    
    spring-mongodb-api (SpringBoot): 
    
    
-   **Docker image for each module has been built (docker build / Dockerfile) and pushed to the Docker Hub** :
+   **Docker image for each module has been built (docker build / Dockerfile) and pushed to the Docker Hub Repository ['ashkan2020/cloudnative'](https://hub.docker.com/r/ashkan2020/cloudnative/tags?page=1&ordering=last_updated)** :
+    Here are the Tag names for each docker images of our system:
             
-    ng-course-ui -> 
-    spring-core-api- ->
-    spring-mongodb-api ->
+   ashkan2020/cloudnative:ng-course-ui         
+   
+   ashkan2020/cloudnative:spring-core-api    
+   
+   spring-mongodb-api 
    
  ------------------------------------------------------------------------------------------------------------------------------------
 
