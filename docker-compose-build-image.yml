@@ -19,6 +19,7 @@ services:
   docker-spring:
     restart: on-failure
     container_name: docker-spring
+    build: ../
     image: spring-core-api
     expose:
       - "8089"
