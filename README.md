@@ -40,7 +40,7 @@ In case of Docker engine deployments, we use **dockervolume** folder in the host
    
    https://hub.docker.com/r/ashkan2020/cloudnative
    
-   Docker image for each module has been built (Dockerfile) and pushed to the Docker Hub Repository ['ashkan2020/cloudnative'](https://hub.docker.com/r/ashkan2020/cloudnative/tags?page=1&ordering=last_updated). Here are the Tag names for each docker images of our system:
+   Docker image for each module has been built (Dockerfile) and pushed to the Docker Hub Repository ['ashkan2020/cloudnative'](https://hub.docker.com/r/ashkan2020/cloudnative/tags?page=1&ordering=last_updated) with the following **tag**s:
             
     ashkan2020/cloudnative:ng-course-ui         
    
