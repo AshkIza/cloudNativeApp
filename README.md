@@ -24,18 +24,14 @@ We are building a  [Learning Management System (LMS)](https://en.wikipedia.org/w
 **Build**
 
    Code Repositories:
-   
-   ng-course-ui (Angular) ->
-   https://github.com/AshkIza/Angular
-   
-   
-   spring-core-api (SpringBoot):
-   https://github.com/AshkIza/spring-core-api
+   https://github.com/AshkIza/Angular          -> (ng-course-ui (Angular))
+ 
+   https://github.com/AshkIza/spring-core-api  -> spring-core-api (SpringBoot)
    
    spring-mongodb-api (SpringBoot): 
    
    
-   Docker image for each module has been built (docker build / Dockerfile) and pushed to the Docker Hub :
+   **Docker image for each module has been built (docker build / Dockerfile) and pushed to the Docker Hub** :
             
     ng-course-ui -> 
     spring-core-api- ->
