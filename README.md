@@ -27,6 +27,7 @@ We will be building 3 docker images (ng-course-ui, spring-core-api, spring-mongo
 5- **Persistent Volume (PV)** : Since Containers are designed to be _epehmeral_, we mount a persistent volume to the MySQL/MongoDB docker containers.<br/>
  We use **dockervolume** folder in the host machine as the data volume (you can create it by running 'mkdir -p dockervolume').<br/>
  In case of _Hosted_ solutions, you can use any object storage solution provided by your cloud provider (examples are _Google Cloud Storage_ and _Amazon S3 Buckets_).
+ 
 ------------------------------------------------------------------------------------------------------------------------------------
 
 ## Build : 
