@@ -14,7 +14,7 @@ We will be building 3 docker images (ng-course-ui, spring-core-api, spring-mongo
 
 **This application is composed of the following modules:**
 
-1- **[ng-course-ui](https://github.com/AshkIza/Angular)** :  docker image of an Angular application (hosted on an NGinx server). This will be the Web component.
+1- **[ng-course-ui](https://github.com/AshkIza/Angular)** :  docker image of an Angular application (hosted on an NGinx server). This will be the Web-tier.
 
 2- **[spring-core-api](https://github.com/AshkIza/spring-core-api)** : docker image of a Spring Boot application (MVC, Spring data-jpa) with MySQL as the database.
     This will act as the core backend RESTful endpoint (API gataeway)
