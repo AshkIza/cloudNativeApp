@@ -2,6 +2,7 @@
 **This application is implemented by SpringBoot 4.0, Angular 11.0, MySQL/MongoDB, Docker/Docker-compose, and Kubernetes (Minikube / GKE)**.
 
 We are building a  [Learning Management System (LMS)](https://en.wikipedia.org/wiki/Learning_management_system) based on **micro-services Architecture**. Each major component of the system is designed, built and deployed sepearately within its own Container / Pod. This helps us to scale the application at ease and make use of differerent technologies for building our app.<br/> 
+
 We will be building 3 docker images (ng-course-ui, spring-core-api, spring-mongodb-api) for our system. We will then write YAML deployment files to instruct docker-compose/kubernetes to deply these images.
 
 
