@@ -1,7 +1,7 @@
 # How to build Cloud Native Applications by Angular, Spring Boot and Kubernetes 
 **This application is implemented by SpringBoot 4.0, Angular 11.0, MySQL/MongoDB, Docker/Docker-compose, and Kubernetes (Minikube / GKE)**.
 
-We are building a  [Learning Management System (LMS)](https://en.wikipedia.org/wiki/Learning_management_system) based on micro-services Architecture. Each major component of the system is designed, built and deployed sepearately within its own Container / Pod. This helps to scale the application at ease and also make use of differerent technologies for building the app.
+We are building a  [Learning Management System (LMS)](https://en.wikipedia.org/wiki/Learning_management_system) based on **micro-services Architecture**. Each major component of the system is designed, built and deployed sepearately within its own Container / Pod. This helps us to scale the application at ease and make use of differerent technologies for building our app.
 
 **This application is composed of the following modules:**
 
@@ -13,10 +13,10 @@ We are building a  [Learning Management System (LMS)](https://en.wikipedia.org/w
 3- **spring-mongodb-api** : docker image of a Spring Boot application (MVC, Spring data-mongodb) with MongoDB as the database.
         This will be a RESTful endpoint to access NoSQL data (MongoDB collections)
         
-4- **MySQL and MongoDB docker imgages** : These database images are provied by the vendors (built from a Linux-alphine image). They act as database Servers. 
+4- **MySQL and MongoDB** docker imgages : These database images are provied by the vendors (built from a Linux-alphine image). They act as Database servers. 
     
 5- **Persistent Volume (PV)** : Since Containers are designed to be _epehmeral_, we mount a persistent volume to the MySQL/MongoDB docker containers (data volume life-cycle is beyond containers). 
-In case of Docker engine deployments, we use **dockervolume** folder in the host machine as the data volume. If you don't have this directory, you can create it by running 'mkdir -p dockervolume' 
+We use **dockervolume** folder in the host machine as the data volume (If you don't have this directory, you can create it by running 'mkdir -p dockervolume'). In case of Hosted solutions, you can use any object storage solution provided by your cloud provider (examples are Google Cloud Storage or Amazon S3 Buckets).
     
 -----------------------------------------------------------------------------------------------------------------------------------
 
