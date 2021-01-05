@@ -19,35 +19,35 @@ We are building a  [Learning Management System (LMS)](https://en.wikipedia.org/w
     
 -----------------------------------------------------------------------------------------------------------------------------------
 
-**System Architecture :**
+## System Architecture :
 
 ![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/system-design-architecture.png)
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
-**Build**
+## Build : 
 
-   Code Repositories:
+   **Code Repositories**:
    
    https://github.com/AshkIza/Angular          
  
    https://github.com/AshkIza/spring-core-api  
    
-   spring-mongodb-api (SpringBoot): 
    
    
-   **Docker image for each module has been built (docker build / Dockerfile) and pushed to the Docker Hub Repository ['ashkan2020/cloudnative'](https://hub.docker.com/r/ashkan2020/cloudnative/tags?page=1&ordering=last_updated)** :
-    Here are the Tag names for each docker images of our system:
+   **Docker Image Repositories**:
+   
+   Docker image for each module has been built (docker build / Dockerfile) and pushed to the Docker Hub Repository ['ashkan2020/cloudnative'](https://hub.docker.com/r/ashkan2020/cloudnative/tags?page=1&ordering=last_updated). Here are the Tag names for each docker images of our system:
             
    ashkan2020/cloudnative:ng-course-ui         
    
    ashkan2020/cloudnative:spring-core-api    
    
-   spring-mongodb-api 
+ 
    
  ------------------------------------------------------------------------------------------------------------------------------------
 
-**Deploy**
+## Deploy : 
 
 During the deployments, docker images will be pulled from the Docker Hub, and be deployed using YAML deployemnt files. 
 Angular (web-tier), Spring (service-tier), and MySQL (data-tier) images will be deployed in separate containers/pods.
@@ -61,6 +61,9 @@ You can deploy the application either,
         docker-compose down (to undeploy and remove the containers)
     Run './data-initialzr.sh' to load some starter data (data-initialzr.sql) into MySQL database.
    The application can now be accessed from [http://localhost:9090](http://localhost:9090)
+   
+    
+    ![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/docker-logs-multicontainers.png)   
 
 Or,
 
@@ -75,7 +78,7 @@ Or,
    
 ------------------------------------------------------------------------------------------------------------------------------------
 
-**How does this application look like? (Web-tier)**
+## How does this application look like? (Web-tier)
 
 ![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/lms-home-page.png)
 
@@ -91,7 +94,7 @@ Or,
 
 
  -----------------------------------------------------------------------------------------------------------------------------------
- **Useful links:**
+ ### Useful links : 
  
  Learning Management System : https://en.wikipedia.org/wiki/Learning_management_system
  
