@@ -16,7 +16,7 @@ We are building a  [Learning Management System (LMS)](https://en.wikipedia.org/w
 4- **MySQL and MongoDB** docker imgages : These database images are provied by the vendors (built from a Linux-alphine image). They act as Database servers. 
     
 5- **Persistent Volume (PV)** : Since Containers are designed to be _epehmeral_, we mount a persistent volume to the MySQL/MongoDB docker containers (data volume life-cycle is beyond containers). 
-We use **dockervolume** folder in the host machine as the data volume (If you don't have this directory, you can create it by running 'mkdir -p dockervolume'). In case of Hosted solutions, you can use any object storage solution provided by your cloud provider (examples are Google Cloud Storage or Amazon S3 Buckets).
+We use **dockervolume** folder in the host machine as the data volume (you can create it by running 'mkdir -p dockervolume').<br/>In case of Hosted solutions, you can use any object storage solution provided by your cloud provider (examples are _Google Cloud Storage_ and _Amazon S3 Buckets_).
     
 -----------------------------------------------------------------------------------------------------------------------------------
 
