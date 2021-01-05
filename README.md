@@ -58,7 +58,8 @@ You can deploy the application either,
     YAML file 'docker-compose.yml' includes all deployment instructions for the docker-compose.
         docker-compose up   
         docker-compose down (to undeploy and remove the containers)
-    The application can be accessed from 'http://localhost:9090/'
+        run './data-initialzr.sh' to load some starter data (data-initialzr.sql) into the MySQL database.
+   The application can now be accessed from [http://localhost:9090](http://localhost:9090)
 
 Or,
 
