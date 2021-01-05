@@ -1,5 +1,5 @@
-# Cloud Native Application 
-**This application is implemented using SpringBoot, Angular, MySQL/MongoDB, Docker/Docker-compose, and Kubernetes/minikube**.
+# How to build Cloud Native Applications by Angular, Spring Boot and Kubernetes 
+**This application is implemented by SpringBoot 4.0, Angular 11.0, MySQL/MongoDB, Docker/Docker-compose, and Kubernetes (Minikube / GKE)**.
 
 We are building a  [Learning Management System (LMS)](https://en.wikipedia.org/wiki/Learning_management_system) based on micro-services Architecture. Each major component of the system is designed, built and deployed sepearately within its own Container / Pod. This helps to scale the application at ease and also make use of differerent technologies for building the app.
 
@@ -13,9 +13,10 @@ We are building a  [Learning Management System (LMS)](https://en.wikipedia.org/w
 3- **spring-mongodb-api** : docker image of a Spring Boot application (MVC, Spring data-mongodb) with MongoDB as the database.
         This will be a RESTful endpoint to access NoSQL data (MongoDB collections)
         
-4- **MySQL and MongoDB docker imgages** : They act as database servers. 
-   In case of Docker engine deployments, we use **dockervolume** in the host machine as the data volume. If you don't have this directory. 
-   you can create it by running 'mkdir -p dockervolume'        
+4- **MySQL and MongoDB docker imgages** : These database images are provied by the vendors (built from a Linux-alphine image). They act as database Servers. 
+    
+5- **Persistent Volume (PV)** : Since Containers are designed to be _epehmeral_, we mount a persistent volume to the MySQL/MongoDB docker containers (data volume life-cycle is beyond containers). 
+In case of Docker engine deployments, we use **dockervolume** folder in the host machine as the data volume. If you don't have this directory, you can create it by running 'mkdir -p dockervolume' 
     
 -----------------------------------------------------------------------------------------------------------------------------------
 
@@ -35,9 +36,11 @@ We are building a  [Learning Management System (LMS)](https://en.wikipedia.org/w
    
    
    
-   **Docker Image Repositories**:
+   **Docker Image Repository**:
    
-   Docker image for each module has been built (docker build / Dockerfile) and pushed to the Docker Hub Repository ['ashkan2020/cloudnative'](https://hub.docker.com/r/ashkan2020/cloudnative/tags?page=1&ordering=last_updated). Here are the Tag names for each docker images of our system:
+   https://hub.docker.com/r/ashkan2020/cloudnative
+   
+   Docker image for each module has been built (Dockerfile) and pushed to the Docker Hub Repository ['ashkan2020/cloudnative'](https://hub.docker.com/r/ashkan2020/cloudnative/tags?page=1&ordering=last_updated). Here are the Tag names for each docker images of our system:
             
     ashkan2020/cloudnative:ng-course-ui         
    
@@ -70,11 +73,15 @@ Or,
 
 **2- On a kuberbetes Cluster**
 
-    You can use either Managed (Google GKE / Amazon EKS) or self-managed Kubernetes cluster.
-    For development/test enviroments, you can deploy it locally on minikube - which is a single-node kubernetes cluster.
+You can use either **Hosted** (Google GKE / Amazon EKS) or **Local** (Minikube) Kubernetes cluster.
+   
+   **Minukube :** 
+   
+   For development/test enviroments, you can deploy it locally on minikube - which is a single-node kubernetes cluster.
    
     YAML file for kubernets deployments is  'k8s-courseApp.yml'
    
+   **Google Cloud Kubernetes (GKE) :**
    
 ------------------------------------------------------------------------------------------------------------------------------------
 
