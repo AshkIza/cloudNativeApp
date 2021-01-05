@@ -3,6 +3,7 @@
 
 We are building a  [Learning Management System (LMS)](https://en.wikipedia.org/wiki/Learning_management_system) based on **micro-services Architecture**. Each major component of the system is designed, built and deployed sepearately within its own Container / Pod. This helps us to scale the application at ease and make use of differerent technologies for building our app.
 
+
 **This application is composed of the following modules:**
 
 1- **[ng-course-ui](https://github.com/AshkIza/Angular)** :  docker image of an Angular application (hosted on an NGinx server). This will be the Web component.
@@ -18,6 +19,9 @@ We are building a  [Learning Management System (LMS)](https://en.wikipedia.org/w
 5- **Persistent Volume (PV)** : Since Containers are designed to be _epehmeral_, we mount a persistent volume to the MySQL/MongoDB docker containers (data volume life-cycle is beyond containers).<br/>
 We use **dockervolume** folder in the host machine as the data volume (you can create it by running 'mkdir -p dockervolume').<br/>
 In case of _Hosted_ solutions, you can use any object storage solution provided by your cloud provider (examples are _Google Cloud Storage_ and _Amazon S3 Buckets_).
+
+
+We will be building 3 docker images (ng-course-ui, spring-core-api, spring-mongodb-api) for our system. We then write YAML deploment files to instruct docker-compose/kubernetes how to deply these images.
     
 -----------------------------------------------------------------------------------------------------------------------------------
 
