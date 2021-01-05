@@ -12,6 +12,10 @@ We are building a  [Learning Management System (LMS)](https://en.wikipedia.org/w
     
 3- **spring-mongodb-api** : docker image of a Spring Boot application (MVC, Spring data-mongodb) with MongoDB as the database.
         This will be a RESTful endpoint to access NoSQL data (MongoDB collections)
+        
+4- **MySQL and MongoDB docker imgages** : They act as database servers. 
+   In case of Docker engine deployments, we use **dockervolume** in the host machine as the data volume. If you don't have this directory. 
+   you can create it by running 'mkdir -p dockervolume'        
     
 -----------------------------------------------------------------------------------------------------------------------------------
 
