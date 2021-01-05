@@ -54,7 +54,7 @@ Angular (web-tier), Spring (service-tier), and MySQL (data-tier) images will be 
 
 You can deploy the application either,
 
-1- On a **Docker Engine**
+**1- On a Docker Engine**
 
     YAML file 'docker-compose.yml' includes all deployment instructions for the docker-compose.
         docker-compose up   
@@ -68,7 +68,7 @@ You can deploy the application either,
 Or,
 
 
-2- On a **kuberbetes Cluster**
+**2- On a kuberbetes Cluster**
 
     You can use either Managed (Google GKE / Amazon EKS) or self-managed Kubernetes cluster.
     For development/test enviroments, you can deploy it locally on minikube - which is a single-node kubernetes cluster.
@@ -94,7 +94,7 @@ Or,
 
 
  -----------------------------------------------------------------------------------------------------------------------------------
- ### Useful links : 
+ #### Useful links : 
  
  Learning Management System : https://en.wikipedia.org/wiki/Learning_management_system
  
