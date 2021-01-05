@@ -39,9 +39,9 @@ We are building a  [Learning Management System (LMS)](https://en.wikipedia.org/w
    
    Docker image for each module has been built (docker build / Dockerfile) and pushed to the Docker Hub Repository ['ashkan2020/cloudnative'](https://hub.docker.com/r/ashkan2020/cloudnative/tags?page=1&ordering=last_updated). Here are the Tag names for each docker images of our system:
             
-   ashkan2020/cloudnative:ng-course-ui         
+    ashkan2020/cloudnative:ng-course-ui         
    
-   ashkan2020/cloudnative:spring-core-api    
+    ashkan2020/cloudnative:spring-core-api    
    
  
    
@@ -63,7 +63,7 @@ You can deploy the application either,
    The application can now be accessed from [http://localhost:9090](http://localhost:9090)
    
     
-    ![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/docker-logs-multicontainers.png)   
+   ![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/docker-logs-multicontainers.png)   
 
 Or,
 
