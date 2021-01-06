@@ -112,3 +112,6 @@ You can use either **Hosted** (Google GKE / Amazon EKS) or **Local** (Minikube) 
  Learning Management System : https://en.wikipedia.org/wiki/Learning_management_system
  
  Spring Boot, Mysql, React docker compose : https://www.callicoder.com/spring-boot-mysql-react-docker-compose-example/
+ 
+ Kubernetes Tutorial : https://www.youtube.com/watch?v=X48VuDVv0do&t=2631s
+ 
