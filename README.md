@@ -9,7 +9,7 @@ We will be building 3 docker images (ng-course-ui, spring-core-api, spring-mongo
 
 ## System Architecture :
 
-![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/system-design-architecture.png)
+![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/readme-images/system-design-architecture.png)
 
 
 **This application is composed of the following modules:**
@@ -72,7 +72,7 @@ YAML file 'docker-compose.yml' includes all deployment instructions for the dock
    The application can now be accessed from [http://localhost:9090](http://localhost:9090)
    
     
-   ![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/docker-logs-multicontainers.png)   
+   ![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/readme-images/docker-logs-multicontainers.png)   
 
 Or,
 
@@ -93,13 +93,13 @@ You can use either **Hosted** (Google GKE / Amazon EKS) or **Local** (Minikube) 
 
 ## How does this application look like? (Web-tier)
 
-![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/lms-home-page.png)
+![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/readme-images/lms-home-page.png)
 
 
-![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/lms-course-list.png)
+![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/readme-images/lms-course-list.png)
 
 
-![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/lms-book-inventory.png)
+![alt text](https://github.com/AshkIza/cloudNativeApp/blob/main/readme-images/lms-book-inventory.png)
 
 
 
